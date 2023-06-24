@@ -1,0 +1,162 @@
+body{
+    background-image: url('https://wallpapercave.com/wp/7tKVQCJ.jpg');
+}
+div.heading{
+   opacity: 0.6;
+   width: 100%;
+   height: 60px;
+}
+div.heading h1{
+    opacity: 1;
+    font-weight: bold;
+    text-align: center;
+    font-size: 400px;
+    margin-top: 90px;
+    color: rgb(255, 176, 5);
+}
+.go{
+    cursor: pointer;
+    color: black;
+    background-color: aliceblue;
+}
+.go:hover{
+    background-color: black;
+    color: aliceblue;
+}
+.go1{
+    cursor: pointer;
+    color: black;
+    background-color: aliceblue;
+}
+.go1:hover{
+    background-color: black;
+    color: aliceblue;
+}
+.rec{
+    margin-top: -300px;
+    margin-left: 850px;
+}
+.learn{
+    cursor: pointer;
+    background-color: chocolate;
+    color: aliceblue;
+    border-color: aliceblue;
+}
+.learn:hover{
+     background-color: aliceblue;
+     color: chocolate;
+     border-color: chocolate;
+}
+.serv{
+    width: 1000px;
+    height: 520px;
+    margin-top: 60px;
+    margin-left: 250px;
+    border-color: black;
+    border-radius: 20px;
+    background-color: rgb(230, 154, 39);
+}
+.cont{
+    width: 100%;
+    height: 500px;
+    margin-top: 40px;
+    background-color: rgb(230, 154, 39);
+}
+input{
+    width: 500px;
+    height: 30px;
+}
+*,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background: #066acd;
+}
+.container{
+    width: 40%;
+    top: 50%;
+    left: 50%;
+    background: white;
+    border-radius: 10px;
+    min-width: 450px;
+    position: absolute;
+    min-height: 100px;
+    transform: translate(-50%,-50%);
+}
+#newtask{
+    position: relative;
+    padding: 30px 20px;
+}
+#newtask input{
+    width: 75%;
+    height: 45px;
+    padding: 12px;
+    color: #111111;
+    font-weight: 500;
+    position: relative;
+    border-radius: 5px;
+    font-family: 'Poppins',sans-serif;
+    font-size: 15px;
+    border: 2px solid #d1d3d4;
+}
+
+#newtask input:focus{
+    outline: none;
+    border-color: #0d75ec;
+}
+#newtask button{
+    position: relative;
+    float: right;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: #0d75ec;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    outline: none;
+    width: 20%;
+    height: 45px;
+    border-radius: 5px;
+    font-family: 'Poppins',sans-serif;
+}
+#tasks{
+    border-radius: 10px;
+    width: 100%;
+    position: relative;
+    background-color: #ffffff;
+    padding: 30px 20px;
+    margin-top: 10px;
+}
+
+.task{
+    border-radius: 5px;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #939697;
+    cursor: pointer;
+    background-color: #c5e1e6;
+    height: 50px;
+    margin-bottom: 8px;
+    padding: 5px 10px;
+    display: flex;
+}
+.task span{
+    font-family: 'Poppins',sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+.task button{
+    background-color: #6583e5;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    height: 100%;
+    width: 40px;
+    border-radius: 5px;
+}
